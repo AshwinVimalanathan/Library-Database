@@ -1,0 +1,297 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLScehma">
+
+<xs:element name="bookData" type="bookType">
+
+	<xs:key name="authorKey">
+			<xs:selector xpath = "author"/>
+			<xs:field xpath = "authorID"/>
+	</xs:key>
+	
+	<xs:key name="bookKey">
+			<xs:selector xpath = "books"/>
+			<xs:field xpath = "ISBN"/>
+	</xs:key>
+	
+	<xs:key name="genreKey">
+			<xs:selector xpath = "genre"/>
+			<xs:field xpath = "genre"/>
+	</xs:key>	
+	
+	<xs:key name="bookGenreKey">
+			<xs:selector xpath = "bookGenre"/>
+			<xs:field xpath = "ISBN_genre"/>
+	</xs:key>	
+	
+	<xs:key name="authoredKey">
+			<xs:selector xpath = "authored"/>
+			<xs:field xpath = "ISBN_authorID"/>
+	</xs:key>	
+	
+	<xs:key name="publisherKey">
+			<xs:selector xpath = "publisher"/>
+			<xs:field xpath = "publisherID"/>
+	</xs:key>
+
+	<xs:key name="publishedKey">
+			<xs:selector xpath = "published"/>
+			<xs:field xpath = "ISBN_publisherID"/>
+	</xs:key>	
+	
+	<xs:key name="staffKey">
+			<xs:selector xpath = "staff"/>
+			<xs:field xpath = "staffID"/>
+	</xs:key>
+	
+	<xs:key name="maintainKey">
+			<xs:selector xpath = "maintain"/>
+			<xs:field xpath = "ISBN_staffID"/>
+	</xs:key>	
+	
+	<xs:key name="verificationSystemKey">
+			<xs:selector xpath = "verificationSystem"/>
+			<xs:field xpath = "loginID"/>
+	</xs:key>	
+	
+	<xs:key name="borrowKey">
+			<xs:selector xpath = "borrow"/>
+			<xs:field xpath = "borrowDate"/>
+	</xs:key>	
+	
+	<xs:key name="readerKey">
+			<xs:selector xpath = "reader"/>
+			<xs:field xpath = "userID"/>
+	</xs:key>	
+	
+	<xs:key name="loginKey">
+			<xs:selector xpath = "login"/>
+			<xs:field xpath = "loginID_staffID"/>
+	</xs:key>	
+	
+	<xs:keyref name="fk_ISBN_bookGenre" refer="bookKey">
+			<xs:selector xpath = "bookGenre"/>
+			<xs:field xpath = "ISBN"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_genre_bookGenre" refer="genreKey">
+			<xs:selector xpath = "bookGenre"/>
+			<xs:field xpath = "genre"/>
+	</xs:keyref>	
+	
+	<xs:keyref name="fk_ISBN_authored" refer="bookKey">
+			<xs:selector xpath = "authored"/>
+			<xs:field xpath = "ISBN"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_authorID_authored" refer="authorKey">
+			<xs:selector xpath = "authored"/>
+			<xs:field xpath = "authorID"/>
+	</xs:keyref>	
+	
+	<xs:keyref name="fk_ISBN_published" refer="bookKey">
+			<xs:selector xpath = "published"/>
+			<xs:field xpath = "ISBN"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_publisherID_published" refer="publisherKey">
+			<xs:selector xpath = "published"/>
+			<xs:field xpath = "publisherID"/>
+	</xs:keyref>	
+	
+	<xs:keyref name="fk_ISBN_maintain" refer="bookKey">
+			<xs:selector xpath = "maintain"/>
+			<xs:field xpath = "ISBN"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_staffID_maintain" refer="staffKey">
+			<xs:selector xpath = "maintain"/>
+			<xs:field xpath = "staffID"/>
+	</xs:keyref>
+
+	<xs:keyref name="fk_loginID_reader" refer="verificationSystemKey">
+			<xs:selector xpath = "reader"/>
+			<xs:field xpath = "loginID"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_staffID_reader" refer="staffKey">
+			<xs:selector xpath = "reader"/>
+			<xs:field xpath = "staffID"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_ISBN_borrow" refer="bookKey">
+			<xs:selector xpath = "borrow"/>
+			<xs:field xpath = "ISBN"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_userID_borrow" refer="readerKey">
+			<xs:selector xpath = "borrow"/>
+			<xs:field xpath = "userID"/>
+	</xs:keyref>	
+	
+		<xs:keyref name="fk_loginID_login" refer="verificationSystemKey">
+			<xs:selector xpath = "login"/>
+			<xs:field xpath = "loginID"/>
+	</xs:keyref>
+	
+	<xs:keyref name="fk_staffID_login" refer="staffKey">
+			<xs:selector xpath = "login"/>
+			<xs:field xpath = "staffID"/>
+	</xs:keyref>
+	
+</xs:element>
+
+<xs:complexType name="bookType">
+	<xs:sequence>
+		<xs:element ref="author" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="books" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="genre" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="bookGenre" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="authored" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="publisher" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="published" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="staff" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="maintain" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="verificationSystem" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="borrow" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="reader" minOccirs="0" maxOccurs="unbounded"/>
+		<xs:element ref="login" minOccirs="0" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:element name="author">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="authorID" type="xs:integer"/>
+			<xs:element name="name" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="books">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ISBN" type="xs:integer"/>
+			<xs:element name="edition" type="xs:integer"/>
+			<xs:element name="price" type="xs:decimal"/>
+			<xs:element name="title" type="xs:string"/>
+			<xs:element name="type" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="genre">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="genre" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="bookGenre">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ISBN_genre" type="xs:string"/>
+			<xs:element name="ISBN" type="xs:integer"/>
+			<xs:element name="genre" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="authored">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ISBN_authorID" type="xs:integer"/>
+			<xs:element name="ISBN" type="xs:integer"/>
+			<xs:element name="authorID" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="publisher">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="publisherID" type="xs:integer"/>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="publishedYear" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="published">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ISBN_publisherID" type="xs:integer"/>
+			<xs:element name="ISBN" type="xs:integer"/>
+			<xs:element name="publisherID" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="staff">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="staffID" type="xs:integer"/>
+			<xs:element name="address" type="xs:string"/>
+			<xs:element name="email" type="xs:string"/>
+			<xs:element name="phoneNumber" type="xs:integer"/>
+			<xs:element name="name" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="maintain">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="ISBN_staffID" type="xs:string"/>
+			<xs:element name="ISBN" type="xs:integer"/>
+			<xs:element name="staffID" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="verificationSystem">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="loginID" type="xs:string"/>
+			<xs:element name="password" type="xs:string"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="reader">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="userID" type="xs:string"/>
+			<xs:element name="name" type="xs:string"/>
+			<xs:element name="phoneNumber" type="xs:integer"/>
+			<xs:element name="address" type="xs:string"/>
+			<xs:element name="email" type="xs:string"/>
+			<xs:element name="loginID" type="xs:string"/>
+			<xs:element name="staffID" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="borrow">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="borrowDate" type="xs:string"/>
+			<xs:element name="dueDate" type="xs:string"/>
+			<xs:element name="returnDate" type="xs:string"/>
+			<xs:element name="overdueFee" type="xs:decimal"/>
+			<xs:element name="userID" type="xs:string"/>
+			<xs:element name="ISBN" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+<xs:element name="login">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="loginID_staffID" type="xs:string"/>
+			<xs:element name="loginID" type="xs:string"/>
+			<xs:element name="staffID" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

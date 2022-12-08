@@ -1,0 +1,1134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookData>
+
+	<author>
+			<authorID>1</authorID>
+			<name>Harper Lee</name>
+	</author>		
+	<author>
+			<authorID>2</authorID>
+			<name>Scott Fitzgerald</name>
+	</author>
+		<author>
+			<authorID>3</authorID>
+			<name>George Orwell</name>
+	</author>
+		<author>
+			<authorID>4</authorID>
+			<name>J.D. Salinger</name>
+	</author>
+	<author>
+			<authorID>5</authorID>
+			<name>Dr.Suess</name>
+	</author>
+	<author>
+			<authorID>6</authorID>
+			<name>Marget Rey</name>
+	</author>
+	<author>
+			<authorID>7</authorID>
+			<name>James Clear</name>
+	</author>
+	<author>
+			<authorID>8</authorID>
+			<name>Frank Herbert</name>
+	</author>	
+	<author>
+			<authorID>9</authorID>
+			<name>J.K. Rowling</name>
+	</author>	
+	<author>
+			<authorID>10</authorID>
+			<name>Jacob Bronowski</name>
+	</author>
+	<author>
+			<authorID>11</authorID>
+			<name>Junji Ito</name>
+	</author>
+	<author>
+			<authorID>12</authorID>
+			<name>Chu Gong</name>
+	</author>
+	<author>
+			<authorID>13</authorID>
+			<name>Ernest Cline</name>
+	</author>
+	<author>
+			<authorID>14</authorID>
+			<name>Khaled Hosseini</name>
+	</author>
+	<author>
+			<authorID>15</authorID>
+			<name>J.R.R. Tolkien</name>
+	</author>
+	
+	
+	
+	<books>
+			<ISBN>978073521192</ISBN>
+			<edition>0</edition>
+			<price>13.99</price>
+			<title>Atomic Habits: Tiny Changes, Remarkable Results</title>
+			<type>Study Guide</type>
+	</books>
+	<books>
+			<ISBN>9780007203581</ISBN>
+			<edition>1</edition>
+			<price>15.99</price>
+			<title>The Lord of the Rings: The Fellowship of the Rings</title>
+			<type>Novel</type>
+	</books>	
+	<books>
+			<ISBN>9780060935467</ISBN>
+			<edition>0</edition>
+			<price>15.99</price>
+			<title>To Kill a Mockingbird</title>
+			<type>Novel</type>
+	</books>	
+	<books>
+			<ISBN>9780060935467</ISBN>
+			<edition>0</edition>
+			<price>15.99</price>
+			<title>To Kill a Mockingbird</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9780099560432</ISBN>
+			<edition>0</edition>
+			<price>16.99</price>
+			<title>Ready Player One</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9780241950425</ISBN>
+			<edition>0</edition>
+			<price>12.99</price>
+			<title>The Catcher in the Rye</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9780375810886</ISBN>
+			<edition>0</edition>
+			<price>2.99</price>
+			<title>Green Eggs and Ham</title>
+			<type>Childrens Literature</type>
+	</books>
+	<books>
+			<ISBN>9780439136358</ISBN>
+			<edition>3</edition>
+			<price>16.99</price>
+			<title>Harry Potter and the Prisoner of Azkaban</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9780439203524</ISBN>
+			<edition>1</edition>
+			<price>11.99</price>
+			<title>Harry Potter and the Philosophers Stone</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9780451524935</ISBN>
+			<edition>0</edition>
+			<price>17.99</price>
+			<title>1984</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9780544313699</ISBN>
+			<edition>0</edition>
+			<price>5.99</price>
+			<title>Curious George Takes a Job</title>
+			<type>Childrens Literature</type>
+	</books>
+	<books>
+			<ISBN>9780575068568</ISBN>
+			<edition>0</edition>
+			<price>10.99</price>
+			<title>Dune</title>
+			<type>Novel</type>
+	</books>	
+			<books>
+			<ISBN>9780674146518</ISBN>
+			<edition>1</edition>
+			<price>95.99</price>
+			<title>The Common Sense of Science</title>
+			<type>Textbook</type>
+	</books>
+	<books>
+			<ISBN>9781572702561</ISBN>
+			<edition>0</edition>
+			<price>12.99</price>
+			<title>The Great Gatsby</title>
+			<type>Novel</type>
+	</books>
+	<books>
+			<ISBN>9781974706952</ISBN>
+			<edition>0</edition>
+			<price>18.99</price>
+			<title>Uzumaki</title>
+			<type>Japanese Manga</type>
+	</books>
+	<books>
+			<ISBN>9783963585258</ISBN>
+			<edition>0</edition>
+			<price>13.99</price>
+			<title>Solo Leveling</title>
+			<type>Korean Manga</type>
+	</books>
+	<books>
+			<ISBN>9781974706952</ISBN>
+			<edition>0</edition>
+			<price>13.99</price>
+			<title>A Thousand Splendid Suns</title>
+			<type>Novel</type>
+	</books>
+
+	<genre>
+			<genre>thriller</genre>
+	</genre>
+		<genre>
+			<genre>domestic fiction</genre>
+	</genre>
+	<genre>
+			<genre>southern gothic</genre>
+	</genre>	
+	<genre>
+			<genre>tragedy</genre>
+	</genre>
+	<genre>
+			<genre>science fiction</genre>
+	</genre>	
+	<genre>
+			<genre>social science fiction</genre>
+	</genre>	
+	<genre>
+			<genre>political fiction</genre>
+	</genre>	
+	<genre>
+			<genre>dystopian fiction</genre>
+	</genre>	
+	<genre>
+			<genre>coming of age</genre>
+	</genre>
+	<genre>
+			<genre>fantasy fiction</genre>
+	</genre>
+	<genre>
+			<genre>adventure</genre>
+	</genre>
+	<genre>
+			<genre>action</genre>
+	</genre>
+	<genre>
+			<genre>pop culture fiction</genre>
+	</genre>
+	<genre>
+			<genre>self care</genre>
+	</genre>
+	<genre>
+			<genre>educational</genre>
+	</genre>
+	<genre>
+			<genre>horror fiction</genre>
+	</genre>
+	
+	
+	
+	
+	<bookGenre>
+			<ISBN_genre>9780060935467thriller</ISBN_genre>
+			<ISBN>9780060935467</ISBN>
+			<genre>thriller</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780060935467southerngothic</ISBN_genre>
+			<ISBN>9780060935467</ISBN>
+			<genre>souhtern gothic</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780060935467domesticfiction</ISBN_genre>
+			<ISBN>9780060935467</ISBN>
+			<genre>domestic fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9781572702561tragedy</ISBN_genre>
+			<ISBN>9781572702561</ISBN>
+			<genre>tragedy</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780451524935sciencefiction</ISBN_genre>
+			<ISBN>9780451524935</ISBN>
+			<genre>science fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780451524935socialsciencefiction</ISBN_genre>
+			<ISBN>9780451524935</ISBN>
+			<genre>social science fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780451524935politicalfiction</ISBN_genre>
+			<ISBN>9780451524935</ISBN>
+			<genre>political fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780451524935dystopianfiction</ISBN_genre>
+			<ISBN>9780451524935</ISBN>
+			<genre>dystopian fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780241950425comingofage</ISBN_genre>
+			<ISBN>9780241950425</ISBN>
+			<genre>coming of age</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780375810886adeventure</ISBN_genre>
+			<ISBN>9780375810886</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780544313699adeventure</ISBN_genre>
+			<ISBN>9780544313699</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780735211292selfcare</ISBN_genre>
+			<ISBN>9780735211292</ISBN>
+			<genre>self care</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780575068568sciencefiction</ISBN_genre>
+			<ISBN>9780575068568</ISBN>
+			<genre>science fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780575068568fantasyfiction</ISBN_genre>
+			<ISBN>9780575068568</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780575068568adventure</ISBN_genre>
+			<ISBN>9780575068568</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439203524adventure</ISBN_genre>
+			<ISBN>9780439203524</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439203524adventure</ISBN_genre>
+			<ISBN>9780439203524</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439203524fantasyfiction</ISBN_genre>
+			<ISBN>9780439203524</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439203524action</ISBN_genre>
+			<ISBN>9780439203524</ISBN>
+			<genre>action</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780674146518educational</ISBN_genre>
+			<ISBN>9780674146518</ISBN>
+			<genre>educational</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439136358adventure</ISBN_genre>
+			<ISBN>9780439136358</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439136358action</ISBN_genre>
+			<ISBN>9780439136358</ISBN>
+			<genre>action</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780439136358fantasyfiction</ISBN_genre>
+			<ISBN>9780439136358</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9781974706952horrorfiction</ISBN_genre>
+			<ISBN>9781974706952</ISBN>
+			<genre>horror fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9781974706952fantasyfiction</ISBN_genre>
+			<ISBN>9781974706952</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9783963585258action</ISBN_genre>
+			<ISBN>9783963585258</ISBN>
+			<genre>action</genre>
+	</bookGenre>	
+	<bookGenre>
+			<ISBN_genre>9783963585258fantasyfiction</ISBN_genre>
+			<ISBN>9783963585258</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780099560432sciencefiction</ISBN_genre>
+			<ISBN>9780099560432</ISBN>
+			<genre>science fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780099560432fantasyfiction</ISBN_genre>
+			<ISBN>9780099560432</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780099560432dystopianfiction</ISBN_genre>
+			<ISBN>9780099560432</ISBN>
+			<genre>dystopian fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780099560432popculturefictio</ISBN_genre>
+			<ISBN>9780099560432</ISBN>
+			<genre>pop culture fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9789023437185domesticfiction</ISBN_genre>
+			<ISBN>9789023437185</ISBN>
+			<genre>domestic fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780007203581fantasyfiction</ISBN_genre>
+			<ISBN>9780007203581</ISBN>
+			<genre>fantasy fiction</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780007203581action</ISBN_genre>
+			<ISBN>9780007203581</ISBN>
+			<genre>action</genre>
+	</bookGenre>
+	<bookGenre>
+			<ISBN_genre>9780007203581adventure</ISBN_genre>
+			<ISBN>9780007203581</ISBN>
+			<genre>adventure</genre>
+	</bookGenre>
+	
+	
+	
+	
+	<authored>
+			<ISBN_authorID>97800609354671</ISBN_authorID>
+			<ISBN>9780060935467</ISBN>
+			<authorID>1</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97802419504254</ISBN_authorID>
+			<ISBN>9780241950425</ISBN>
+			<authorID>4</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97803758108865</ISBN_authorID>
+			<ISBN>9780375810886</ISBN>
+			<authorID>5</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97804515249353</ISBN_authorID>
+			<ISBN>9780451524935</ISBN>
+			<authorID>3</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97805443136996</ISBN_authorID>
+			<ISBN>9780544313699</ISBN>
+			<authorID>6</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97805750685688</ISBN_authorID>
+			<ISBN>9780575068568</ISBN>
+			<authorID>8</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97807352112927</ISBN_authorID>
+			<ISBN>9780735211292</ISBN>
+			<authorID>7</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97815727025612</ISBN_authorID>
+			<ISBN>9781572702561</ISBN>
+			<authorID>2</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>978000720358115</ISBN_authorID>
+			<ISBN>9780007203581</ISBN>
+			<authorID>15</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>978009956043213</ISBN_authorID>
+			<ISBN>9780099560432</ISBN>
+			<authorID>13</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97804391363589</ISBN_authorID>
+			<ISBN>9780439136358</ISBN>
+			<authorID>9</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>97804392035249</ISBN_authorID>
+			<ISBN>9780439203524</ISBN>
+			<authorID>9</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>978067414651810</ISBN_authorID>
+			<ISBN>9780674146518</ISBN>
+			<authorID>10</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>978197470695211</ISBN_authorID>
+			<ISBN>9781974706952</ISBN>
+			<authorID>11</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>978396358525812</ISBN_authorID>
+			<ISBN>9783963585258</ISBN>
+			<authorID>12</authorID>
+	</authored>
+	<authored>
+			<ISBN_authorID>978902343718514</ISBN_authorID>
+			<ISBN>9789023437185</ISBN>
+			<authorID>14</authorID>
+	</authored>
+	
+	
+	
+	
+	
+	<publisher>
+			<publisherID>1</publisherID>
+			<name>J.B. Lippincott and Co.</name>
+			<publishedYear>1960</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>2</publisherID>
+			<name>Charles Scribners Sons</name>
+			<publishedYear>1925</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>3</publisherID>
+			<name>Secker and Warburg</name>
+			<publishedYear>1949</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>4</publisherID>
+			<name>Little, Brown and Company</name>
+			<publishedYear>1951</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>5</publisherID>
+			<name>Penguin Random House LLC</name>
+			<publishedYear>1960</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>6</publisherID>
+			<name>Houghton Mifflin</name>
+			<publishedYear>1980</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>7</publisherID>
+			<name>Penguin Publishing Group</name>
+			<publishedYear>2018</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>8</publisherID>
+			<name>Chilton Books</name>
+			<publishedYear>1965</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>9</publisherID>
+			<name>Scholastic</name>
+			<publishedYear>1997</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>10</publisherID>
+			<name>Scholastic</name>
+			<publishedYear>1999</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>11</publisherID>
+			<name>Harvard University Press</name>
+			<publishedYear>1953</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>12</publisherID>
+			<name>Shogakukan</name>
+			<publishedYear>2000</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>13</publisherID>
+			<name>D and C Media</name>
+			<publishedYear>2016</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>14</publisherID>
+			<name>Crown Publishing Group</name>
+			<publishedYear>2011</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>15</publisherID>
+			<name>Riverhead Books</name>
+			<publishedYear>2007</publishedYear>
+	</publisher>
+	<publisher>
+			<publisherID>16</publisherID>
+			<name>George Allen and Unwin</name>
+			<publishedYear>1954</publishedYear>
+	</publisher>
+	
+	
+	
+	
+	<published>
+			<ISBN_publisherID>97800609354671</ISBN_publisherID>
+			<ISBN>9780060935467</ISBN>
+			<publisherID>1</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97815727025612</ISBN_publisherID>
+			<ISBN>9781572702561</ISBN>
+			<publisherID>2</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97804515249353</ISBN_publisherID>
+			<ISBN>9780451524935</ISBN>
+			<publisherID>3</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97802419504254</ISBN_publisherID>
+			<ISBN>9780241950425</ISBN>
+			<publisherID>4</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97803758108865</ISBN_publisherID>
+			<ISBN>9780375810886</ISBN>
+			<publisherID>5</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97800609354671</ISBN_publisherID>
+			<ISBN>9780544313699</ISBN>
+			<publisherID>6</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97807352112927</ISBN_publisherID>
+			<ISBN>9780735211292</ISBN>
+			<publisherID>7</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>97805750685688</ISBN_publisherID>
+			<ISBN>9780575068568</ISBN>
+			<publisherID>8</publisherID>
+	</published><published>
+			<ISBN_publisherID>97804392035249</ISBN_publisherID>
+			<ISBN>9780439203524</ISBN>
+			<publisherID>9</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978043913635810</ISBN_publisherID>
+			<ISBN>9780439136358</ISBN>
+			<publisherID>10</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978067414651811</ISBN_publisherID>
+			<ISBN>9780674146518</ISBN>
+			<publisherID>11</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978197470695212</ISBN_publisherID>
+			<ISBN>9781974706952</ISBN>
+			<publisherID>12</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978396358525813</ISBN_publisherID>
+			<ISBN>9783963585258</ISBN>
+			<publisherID>13</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978009956043214</ISBN_publisherID>
+			<ISBN>9780099560432</ISBN>
+			<publisherID>14</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978902343718515</ISBN_publisherID>
+			<ISBN>9789023437185</ISBN>
+			<publisherID>15</publisherID>
+	</published>
+	<published>
+			<ISBN_publisherID>978000720358116</ISBN_publisherID>
+			<ISBN>9780007203581</ISBN>
+			<publisherID>16</publisherID>
+	</published>
+	
+	
+	
+	
+	<staff>
+			<staffID>1</staffID>
+			<address>190 Alfred Paterson Drive, Markham ON</address>
+			<email>eva.adams@gmail.com</email>
+			<phoneNumber>9051389204</phoneNumber>
+			<name>Eva Adams</name>
+	</staff>
+	<staff>
+			<staffID>2</staffID>
+			<address>65 Misty Court, Markham ON</address>
+			<email>eva.adams@gmail.com</email>
+			<phoneNumber>9051389204</phoneNumber>
+			<name>Eva Adams</name>
+	</staff>
+	<staff>
+			<staffID>3</staffID>
+			<address>12 Coral Cove Drive, Richmond Hill ON</address>
+			<email>joe.clark@hotmail.com</email>
+			<phoneNumber>4163905677</phoneNumber>
+			<name>Joe Clark</name>
+	</staff>
+	<staff>
+			<staffID>4</staffID>
+			<address>90 Stone Court, Scarborough ON</address>
+			<email>james.davis@gmail.com</email>
+			<phoneNumber>4163918484</phoneNumber>
+			<name>James Davis</name>
+	</staff>
+	<staff>
+			<staffID>5</staffID>
+			<address>102 Bur Oak Road, Markham ON</address>
+			<email>bob.hills@gmail.com</email>
+			<phoneNumber>6473080549</phoneNumber>
+			<name>Bob Hills</name>
+	</staff>
+	<staff>
+			<staffID>6</staffID>
+			<address>10 Alfred Paterson Drive, Markham ON</address>
+			<email>calvin.klein@gmail.com</email>
+			<phoneNumber>4166747428</phoneNumber>
+			<name>Calvin Klein</name>
+	</staff>
+	<staff>
+			<staffID>7</staffID>
+			<address>29 Walter Street, Scarborough ON</address>
+			<email>dev.patel@hotmail.com</email>
+			<phoneNumber>6474726650</phoneNumber>
+			<name>Dev Patel</name>
+	</staff>
+	<staff>
+			<staffID>8</staffID>
+			<address>64 Saffron Park Street, Markham ON</address>
+			<email>,neil.gupta@gmail.com</email>
+			<phoneNumber>9052940944</phoneNumber>
+			<name>Neil Gupta</name>
+	</staff>
+	<staff>
+			<staffID>9</staffID>
+			<address>117 Forrest Hills Drive, North York ON</address>
+			<email>samantha.xiang@gmail.com</email>
+			<phoneNumber>6471819083</phoneNumber>
+			<name>Samantha Xiang</name>
+	</staff>
+	<staff>
+			<staffID>10</staffID>
+			<address>101 Baker Street, Markham ON</address>
+			<email>michelle.yau@hotmail.com</email>
+			<phoneNumber>9058752483</phoneNumber>
+			<name>Michelle Yau</name>
+	</staff>
+	<staff>
+			<staffID>11</staffID>
+			<address>94 Apple Pine Street, Scarborough ON</address>
+			<email>mason31@hotmail.com</email>
+			<phoneNumber>4168379381</phoneNumber>
+			<name>Mason McIntyre</name>
+	</staff>
+	<staff>
+			<staffID>12</staffID>
+			<address>123 Kingsmill Crescent, Markham ON</address>
+			<email>becky.liang@gmail.com</email>
+			<phoneNumber>6473804911</phoneNumber>
+			<name>Becky Liang</name>
+	</staff>
+	
+	
+	
+	
+	
+	<maintain>
+			<ISBN_staffID>97800609354671</ISBN_staffID>
+			<ISBN>9780060935467</ISBN>
+			<staffID>1</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97815727025611</ISBN_staffID>
+			<ISBN>9781572702561</ISBN>
+			<staffID>1</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97804515249353</ISBN_staffID>
+			<ISBN>9780451524935</ISBN>
+			<staffID>3</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>978024195042510</ISBN_staffID>
+			<ISBN>9780241950425</ISBN>
+			<staffID>10</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>978037581086610</ISBN_staffID>
+			<ISBN>9780375810866</ISBN>
+			<staffID>10</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>978054431369910</ISBN_staffID>
+			<ISBN>9780544313699</ISBN>
+			<staffID>10</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>978073521129210</ISBN_staffID>
+			<ISBN>9780735211292</ISBN>
+			<staffID>10</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>978057506856810</ISBN_staffID>
+			<ISBN>9780575068568</ISBN>
+			<staffID>10</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97804392035243</ISBN_staffID>
+			<ISBN>9780439203524</ISBN>
+			<staffID>3</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97806741465183</ISBN_staffID>
+			<ISBN>9780674146518</ISBN>
+			<staffID>3</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97804391363583</ISBN_staffID>
+			<ISBN>9780439136358</ISBN>
+			<staffID>3</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97819747069523</ISBN_staffID>
+			<ISBN>9781974706952</ISBN>
+			<staffID>3</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97839635852589</ISBN_staffID>
+			<ISBN>9783963585258</ISBN>
+			<staffID>9</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97890234371859</ISBN_staffID>
+			<ISBN>9789023437185</ISBN>
+			<staffID>9</staffID>
+	</maintain>
+	<maintain>
+			<ISBN_staffID>97800072035811</ISBN_staffID>
+			<ISBN>9780007203581</ISBN>
+			<staffID>1</staffID>
+	</maintain>
+	
+	
+	
+	
+	
+	<verificationSystem>
+			<login>raymondfan12</login>
+			<password>password</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>mmystery</login>
+			<password>password123</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>chloe.chu</login>
+			<password>pw12345</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>a2vimala</login>
+			<password>ilovebooks3</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>wahab123</login>
+			<password>abc123</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>ssuzoe</login>
+			<password>zoeiscool</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>ultraviolet</login>
+			<password>violetultra</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>vvargos</login>
+			<password>liblib0</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>granstor22</login>
+			<password>valorant</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>Hayden888</login>
+			<password>888pass</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>jerry.lu17</login>
+			<password>waterlooeng</password>
+	</verificationSystem>
+	<verificationSystem>
+			<login>admin</login>
+			<password>admin1234</password>
+	</verificationSystem>
+	
+	
+	
+	
+	
+	
+	
+	<borrow>
+			<borrowDate>02/21/2021</borrowDate>
+			<dueDate>03/07/2021</dueDate>
+			<returnDate>03/05/2021</returnDate>
+			<overdueFee>0.0</overdueFee>
+			<userID>raymondfan12</userID>
+			<ISBN>9781572702561</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/17/2021</borrowDate>
+			<dueDate>03/01/2021</dueDate>
+			<returnDate>03/09/2021</returnDate>
+			<overdueFee>0.5</overdueFee>
+			<userID>a2vimala</userID>
+			<ISBN>9780375810866</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/24/2021</borrowDate>
+			<dueDate>03/11/2021</dueDate>
+			<returnDate>03/11/2021</returnDate>
+			<overdueFee>0.0</overdueFee>
+			<userID>ultraviolet</userID>
+			<ISBN>9780375810886</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/22/2021</borrowDate>
+			<dueDate>03/03/2021</dueDate>
+			<returnDate>03/16/2021</returnDate>
+			<overdueFee>1.05</overdueFee>
+			<userID>vvargos</userID>
+			<ISBN>9780674146518</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/12/2021</borrowDate>
+			<dueDate>02/24/2021</dueDate>
+			<returnDate>03/07/2021</returnDate>
+			<overdueFee>0.8</overdueFee>
+			<userID>vvargos</userID>
+			<ISBN>9780439136358</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/18/2021</borrowDate>
+			<dueDate>03/07/2021</dueDate>
+			<returnDate>03/07/2021</returnDate>
+			<overdueFee>0.0</overdueFee>
+			<userID>granstor22</userID>
+			<ISBN>9781974706952</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/15/2021</borrowDate>
+			<dueDate>02/30/2021</dueDate>
+			<returnDate>03/01/2021</returnDate>
+			<overdueFee>0.2</overdueFee>
+			<userID>Hayden888</userID>
+			<ISBN>9789023437185</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/29/2021</borrowDate>
+			<dueDate>03/16/2021</dueDate>
+			<returnDate>03/16/2021</returnDate>
+			<overdueFee>0.0</overdueFee>
+			<userID>Hayden888</userID>
+			<ISBN>9780007203581</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>02/28/2021</borrowDate>
+			<dueDate>03/11/2021</dueDate>
+			<returnDate>03/11/2021</returnDate>
+			<overdueFee>0.0</overdueFee>
+			<userID>jerry.lu17</userID>
+			<ISBN>9780060935467</ISBN>
+	</borrow>
+	<borrow>
+			<borrowDate>03/01/2021</borrowDate>
+			<dueDate>03/13/2021</dueDate>
+			<returnDate>03/13/2021</returnDate>
+			<overdueFee>0.0</overdueFee>
+			<userID>ssuzoe</userID>
+			<ISBN>9780451524935</ISBN>
+	</borrow>
+	
+	
+	
+	
+	
+	<login>
+			<loginID_staffID>admin1</loginID_staffID>
+			<login>admin</login>
+			<staffID>1</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin2</loginID_staffID>
+			<login>admin</login>
+			<staffID>2</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin3</loginID_staffID>
+			<login>admin</login>
+			<staffID>3</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin4</loginID_staffID>
+			<login>admin</login>
+			<staffID>4</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin5</loginID_staffID>
+			<login>admin</login>
+			<staffID>5</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin6</loginID_staffID>
+			<login>admin</login>
+			<staffID>6</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin7</loginID_staffID>
+			<login>admin</login>
+			<staffID>7</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin8</loginID_staffID>
+			<login>admin</login>
+			<staffID>8</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin9</loginID_staffID>
+			<login>admin</login>
+			<staffID>9</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin10</loginID_staffID>
+			<login>admin</login>
+			<staffID>10</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin11</loginID_staffID>
+			<login>admin</login>
+			<staffID>11</staffID>
+	</login>
+	<login>
+			<loginID_staffID>admin12</loginID_staffID>
+			<login>admin</login>
+			<staffID>12</staffID>
+	</login>
+	
+	
+	
+	
+	
+	
+	<reader>
+			<userID>raymondfan12</userID>
+			<name>Raymond Fan</name>
+			<phoneNumber>9053275731</phoneNumber>
+			<address>77 Carleton Street, Markham ON</address>
+			<email>r12fan@gmail.com</email>
+			<staffID>1</staffID>
+	</reader>
+	<reader>
+			<userID>chloe.chu</userID>
+			<name>Chloe Chu</name>
+			<phoneNumber>4162919743</phoneNumber>
+			<address>83 Elm Street, Toronto ON</address>
+			<email>chloe.chu@gmail.com</email>
+			<staffID>3</staffID>
+	</reader>
+	<reader>
+			<userID>a2vimala</userID>
+			<name>Ashwin Vimalanathan</name>
+			<phoneNumber>6475339102</phoneNumber>
+			<address>180 Alfred Paterson Drive, Markham ON</address>
+			<email>vimalanathanashwin@gmail.com</email>
+			<staffID>4</staffID>
+	</reader>
+	<reader>
+			<userID>mmystery</userID>
+			<name>Martin Mystery</name>
+			<phoneNumber>6471985472</phoneNumber>
+			<address>93 Wood Street, Toronto, ON</address>
+			<email>mmystery@hotmail.com</email>
+			<staffID>2</staffID>
+	</reader>
+	<reader>
+			<userID>wahab123</userID>
+			<name>Wahab Ata</name>
+			<phoneNumber>6479992182</phoneNumber>
+			<address>63 Silvertop Street, Mississauga, ON</address>
+			<email>wahab.ata@gmail.com</email>
+			<staffID>5</staffID>
+	</reader>
+	<reader>
+			<userID>ssuzoe</userID>
+			<name>Zoe Chou</name>
+			<phoneNumber>6479815525</phoneNumber>
+			<address>74 Malborough Street, Scarborough, ON</address>
+			<email>zoe.chou@gmail.com</email>
+			<staffID>6</staffID>
+	</reader>
+	<reader>
+			<userID>ultraviolet</userID>
+			<name>Aubrey Anderson</name>
+			<phoneNumber>6473893673</phoneNumber>
+			<address>55 Hillside Crescent, Stouffville, ON</address>
+			<email>aubrey.halil@gmail.com</email>
+			<staffID>2</staffID>
+	</reader>
+	<reader>
+			<userID>vvargos</userID>
+			<name>Vinay Komaravolu</name>
+			<phoneNumber>6478716774</phoneNumber>
+			<address>79 Moonrise Crescent, Stouffville, ON</address>
+			<email>vkomara@gmail.com</email>
+			<staffID>8</staffID>
+	</reader>
+	<reader>
+			<userID>granstor22</userID>
+			<name>Caroline Granstor</name>
+			<phoneNumber>9054789543</phoneNumber>
+			<address>34 Greenstar Crescent, Markham ON</address>
+			<email>caroline.granstor@gmail.com</email>
+			<staffID>8</staffID>
+	</reader>
+	<reader>
+			<userID>Hayden888</userID>
+			<name>Hayden Leung</name>
+			<phoneNumber>4165328946</phoneNumber>
+			<address>278 Castlemore Avenue, Markham ON</address>
+			<email>hleung@gmail.com</email>
+			<staffID>10</staffID>
+	</reader>
+	<reader>
+			<userID>jerry.lu17</userID>
+			<name>Jerry Lu</name>
+			<phoneNumber>6471374892</phoneNumber>
+			<address>13 Castlemore Avenue, Markham ON</address>
+			<email>jerry.lu@gmail.com</email>
+			<staffID>6</staffID>
+	</reader>
+	
+</bookData>
